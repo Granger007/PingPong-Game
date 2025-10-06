@@ -107,7 +107,7 @@ class GameEngine:
             self.winner = "Player"
             self.state = STATE_GAME_OVER
         elif self.ai_score >= self.winning_score:
-            self.winner = "AI"
+            self.winner = "Bot"
             self.state = STATE_GAME_OVER
 
     def render(self, screen):
